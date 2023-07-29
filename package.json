@@ -1,0 +1,12 @@
+{
+	"name": "@MW/spa-poc",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"setup": "for D in */; do yarn --cwd \"${D}\"; done",
+		"start_container": "cd container && yarn start",
+		"start_navbar": "cd navbar && yarn serve",
+		"start_app_one": "cd app-one && yarn serve",
+		"start_app_two": "cd app-two && yarn serve"
+	}
+}
